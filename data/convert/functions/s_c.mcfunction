@@ -1,0 +1,2 @@
+item replace entity @s weapon.offhand with air
+give @s minecraft:player_head{display:{Name:"{\"color\":\"gray\",\"text\":\"Copper Token\"}"},SkullOwner:{Id:[I; -639900307, 1335050392, -1447866749, -737928481],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyMzlmMWVlMDA0MWJjNmY3NTU5YzhhYTljYWZkZWJkY2VjZTZmMjZkMDBhODYwMzY1ZDQyOWMxMjRlMjI0YyJ9fX0="}]}}} 64

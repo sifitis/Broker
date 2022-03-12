@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:underwater_bonemeals",
+	"#minecraft:wall_corals",
+	"#minecraft:leaves",
+	"#minecraft:buttons",
+	"#minecraft:wooden_pressure_plates",
+	"#minecraft:saplings",
+	"#minecraft:corals",
+	"#minecraft:banners",
+	"#minecraft:rails",
+	"minecraft:water",
+	"minecraft:air"
+	
+	
+  ]
+}

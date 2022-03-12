@@ -1,0 +1,57 @@
+{
+	"parent": "convert:economy/aquire_gold",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{
+				display:{Name:\"{\\\"color\\\":\\\"gray\\\",\\\"text\\\":\\\"Platinum Token\\\"}\"},
+				SkullOwner:{
+					Id:[I; -952817378, 1695301765, -1555711804, -1618792234],
+					Properties:{
+						textures:[
+							{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE0ZmNkNGU0OTI0MWJlZThjYTA5MWRiNjRmODljM2U2NjllYjMzNjk5MDhlMGJjOGE0NmY3NjE0NGU1OWZjNiJ9fX0=\"}
+						]
+					}
+				}
+			}"
+		},
+		"title": {
+			"text": "High Value"
+		},
+		"description": {
+			"text": "Aquire a Platinum token using 64 Gold tokens"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"get_platinum_token": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{
+							display:{Name:\"{\\\"color\\\":\\\"gray\\\",\\\"text\\\":\\\"Platinum Token\\\"}\"},
+							SkullOwner:{
+								Id:[I; -952817378, 1695301765, -1555711804, -1618792234],
+								Properties:{
+									textures:[
+										{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE0ZmNkNGU0OTI0MWJlZThjYTA5MWRiNjRmODljM2U2NjllYjMzNjk5MDhlMGJjOGE0NmY3NjE0NGU1OWZjNiJ9fX0=\"}
+									]
+								}
+							}
+						}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "get_platinum_token"
+		]
+	]
+}

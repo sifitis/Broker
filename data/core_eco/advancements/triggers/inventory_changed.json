@@ -1,0 +1,15 @@
+{
+    "display": {
+		"announce_to_chat": false,
+		"title": {"text":""},
+		"description": {"text":""}
+  },
+    "criteria": {
+        "Inventory_Changed": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "core:inventory_changed_reset"
+    }
+}
