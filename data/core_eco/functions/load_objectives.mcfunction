@@ -4,7 +4,7 @@
 #      Outputs: None
 #    Tagged in: #minecraft:load
 
-tellraw @a {"text":"Running SifTech Economics v2.2.0 by sifitis","color":"aqua"}
+tellraw @a {"text":"Running SifEconomics v1.18.2.0 DEV","color":"aqua"}
 scoreboard objectives add obj_exist_check dummy
 scoreboard players set exist_flag obj_exist_check 0
 
@@ -35,35 +35,6 @@ execute unless score exist_flag obj_exist_check matches 1.. run function math:ut
 
 scoreboard objectives remove obj_exist_check
 #================================#
-
-
-#=========SPELL COOLDOWN=========#
-
-#==arcane==#
-scoreboard objectives add cd_prest dummy
-scoreboard players set CD_TIME cd_prest 0
-
-#==pyromancy==#
-scoreboard objectives add cd_fireball dummy
-scoreboard players set CD_TIME cd_fireball 200
-
-#==geomancy===#
-scoreboard objectives add cd_alchemy dummy
-scoreboard players set CD_TIME cd_alchemy 40
-
-#==purification==#
-scoreboard objectives add cd_restore dummy
-scoreboard players set CD_TIME cd_restore 216000
-
-#==hydromancy==#
-scoreboard objectives add cd_rain dummy
-scoreboard players set CD_TIME cd_rain 360000
-
-scoreboard objectives add cd_geyser dummy
-scoreboard players set CD_TIME cd_geyser 40
-scoreboard players set RUN_TIME cd_geyser -100
-
-#===============================#
 
 #=======TRADER SUMMONING========#
 team add no_collision
