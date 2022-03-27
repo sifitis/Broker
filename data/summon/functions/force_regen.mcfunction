@@ -14,8 +14,9 @@ execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=master_quarryman] at
 execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=mycology_mike] at @s run function summon:mycology_mike
 execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=prospector] at @s run function summon:prospector
 execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=tavern_bard] at @s run function summon:tavern_bard
-execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=green_thumb_greg] at @s run function summon:tavern_bard
-execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=kraig_yola] at @s run function summon:tavern_bard
-execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=hue_wheeler] at @s run function summon:tavern_bard
+execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=green_thumb_greg] at @s run function summon:green_thumb_greg
+execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=kraig_yola] at @s run function summon:kraig_yola
+execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=hue_wheeler] at @s run function summon:hue_wheeler
+execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=paul_bunyan] at @s run function summon:paul_bunyan
 
 team join no_collision @e[tag=token_merchant,type=villager]
