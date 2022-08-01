@@ -12,7 +12,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 20
+          "weight": 60
         }
       ]
     },
@@ -26,13 +26,13 @@
         }
       ]
     },
-	{
+	  {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:chests/vanilla/buried_treasure"
+          "name": "minecraft:chests/vanilla/ancient_city"
         }
       ]
     }
