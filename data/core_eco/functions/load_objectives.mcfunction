@@ -4,7 +4,7 @@
 #      Outputs: None
 #    Tagged in: #minecraft:load
 
-tellraw @a {"text":"Running SifEconomics v1.18.2.0","color":"aqua"}
+tellraw @a {"text":"Running SifEconomics v1.19.1.0","color":"aqua"}
 scoreboard objectives add obj_exist_check dummy
 scoreboard players set exist_flag obj_exist_check 0
 

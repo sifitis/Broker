@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "convert:boss_value"
+          "name": "convert:low_med_value"
         }
       ]
     },
@@ -17,7 +17,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/vanilla/wither"
+          "name": "minecraft:entities/vanilla/frog"
         }
       ]
     }
