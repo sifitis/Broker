@@ -15,6 +15,7 @@ scoreboard objectives add config dummy {"text":"SifEco Config","color":"yellow"}
 execute unless score conversion config matches -2147483648..2147483647 run scoreboard players set conversion config 1
 execute unless score magic config matches -2147483648..2147483647 run scoreboard players set magic config 1
 execute unless score token_repair config matches -2147483648..2147483647 run scoreboard players set token_repair config 1
+execute unless score cust_w_trade config matches -2147483648..2147483647 run scoreboard players set cust_w_trade config 1
 #================================#
 
 
@@ -40,3 +41,5 @@ scoreboard objectives remove obj_exist_check
 team add no_collision
 team modify no_collision collisionRule never
 #===============================#
+
+function trader:initialize_table
