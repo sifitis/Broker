@@ -18,5 +18,7 @@ execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=green_thumb_greg] at
 execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=kraig_yola] at @s run function summon:kraig_yola
 execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=hue_wheeler] at @s run function summon:hue_wheeler
 execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=paul_bunyan] at @s run function summon:paul_bunyan
+execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=master_sherd] at @s run function summon:master_sherd
+execute as @e[type=marker,tag=token_merchant_loc] as @s[tag=master_trim] at @s run function summon:master_trim
 
 team join no_collision @e[tag=token_merchant,type=villager]
