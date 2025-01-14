@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "convert:low_med_value"
+          "value": "convert:low_med_value"
         }
       ]
     },
@@ -17,7 +17,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/vanilla/axolotl"
+          "value": "minecraft:entities/vanilla/axolotl"
         }
       ]
     }
