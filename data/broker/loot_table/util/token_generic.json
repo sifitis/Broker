@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:block_interaction_range",
+                  "id": "9348529348487",
+                  "amount": -10000,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:block_interaction_range",
+                  "id": "34958730345",
+                  "amount": -10000,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "broker": {
+                  "is_token": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:equippable": {},
+                "minecraft:hide_additional_tooltip": {}
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ],
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}
