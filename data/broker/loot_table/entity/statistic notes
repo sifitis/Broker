@@ -1,0 +1,32 @@
+
+low	- 8.65* ct
+90% - 1-4 copper
+10% - 1 silver
+
+lowmed - 14.8* ct
+80% - 1-4 copper
+20% - 1 silver
+
+med - 20.95* ct
+70% - 1-4 copper
+30% - 1 silver
+
+medhigh - 32.42* ct
+57.9% 1-4 copper
+42.0% 1 silver
+0.1%  1 gold
+
+high - 40.41* ct
+44.9% 1-4 copper
+55.0% 1 silver
+0.1%  1 gold
+
+miniboss - 705.8* ct
+21* copper + 7.5* silver + 5% 1 gold
+(10-32)      (5-10)
+
+boss - 1411* ct
+42* copper + 15* silver + 10% 1 gold
+(20-64)      (10-20)
+
+*average value
