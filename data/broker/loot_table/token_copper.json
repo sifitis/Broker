@@ -40,7 +40,7 @@
                 "function": "minecraft:set_custom_data",
                 "tag": {
                   "broker": {
-                    "type": "copper"
+                    "type": 1
                   }
                 }
               }
