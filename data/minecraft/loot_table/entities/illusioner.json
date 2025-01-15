@@ -2,22 +2,20 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "convert:miniboss_value"
+          "value": "minecraft:entities/vanilla/illusioner"
         }
       ]
     },
-	{
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/vanilla/illusioner"
+          "value": "broker:entity/miniboss_value"
         }
       ]
     }

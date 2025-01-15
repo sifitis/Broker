@@ -2,12 +2,20 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/vanilla/warden"
+          "value": "minecraft:entities/vanilla/warden"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "broker:entity/miniboss_value"
         }
       ]
     }

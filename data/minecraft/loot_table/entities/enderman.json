@@ -2,22 +2,20 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "convert:med_high_value"
+          "value": "minecraft:entities/vanilla/enderman"
         }
       ]
     },
-	{
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/vanilla/enderman"
+          "value": "broker:entity/med_high_value"
         }
       ]
     }

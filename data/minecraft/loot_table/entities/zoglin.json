@@ -2,22 +2,20 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "convert:high_value"
+          "value": "minecraft:entities/vanilla/zoglin"
         }
       ]
     },
-	{
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/vanilla/zoglin"
+          "value": "broker:entity/high_value"
         }
       ]
     }
