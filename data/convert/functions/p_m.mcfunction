@@ -1,3 +1,0 @@
-item replace entity @s weapon.offhand with air
-
-give @s minecraft:player_head{display:{Name:"{\"color\":\"gray\",\"text\":\"Mithril Token\"}"},SkullOwner:{Id:[I; 1933560561,1746748267,-1615068084,479659110],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE0ZmZmMmZiMjdiNTFmODZiMmM0YjIyYTM4MTAxNGRlMzJjMTNjMTJhOGY5ODlhMTg2ZmUwMzg1ZGExOWQzYyJ9fX0="}]}}} 1

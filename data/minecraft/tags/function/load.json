@@ -1,7 +1,5 @@
 {
   "replace": false,
   "values": [
-    "core_eco:load_objectives",
-    "trader:trader_clock"
   ]
 }
