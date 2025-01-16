@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "broker:util/conversion/promote"
+      "function": "broker:util/conversion/flag_for_promotion"
     },
     "sends_telemetry_event": false
 }

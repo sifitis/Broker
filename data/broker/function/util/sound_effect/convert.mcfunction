@@ -1,0 +1,1 @@
+execute unless score @s zz.broker.uservar.setting.conv.mute matches 1.. at @s run playsound minecraft:entity.item.pickup player @s
