@@ -3,4 +3,4 @@
 
 item replace entity @s weapon.offhand with air
 loot give @s loot broker:token_gold
-playsound minecraft:entity.item.pickup
+function broker:util/sound_effect/convert
