@@ -2,8 +2,6 @@
 # args: [type_num] = The numerical (1-5) type of the token
 #       [type_str] = The string type of the token (copper, silver, etc.)
 #       [delta_score_char] = The scoreboard value for the delta (C,S, G, etc.)
-#
-#
 
 # Initialize the storage compound
 $data modify storage datapack:broker process.automerge.run_merge.$(type_char) set value {type_num:$(type_num),type_str:"$(type_str)",count:0}
