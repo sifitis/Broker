@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:chests/vanilla/trial_chambers/reward_ominous",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "broker:chest/ultra_high_chest_value",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

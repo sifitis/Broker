@@ -1,40 +1,25 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "magic:random_tome",
-          "weight": 1
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:chests/vanilla/jungle_temple",
+                    "weight": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 5
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "broker:chest/ultra_high_chest_value",
+                    "weight": 1
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "convert:chests/high_value"
-        }
-      ]
-    },
-	{
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:chests/vanilla/jungle_temple"
-        }
-      ]
-    }
-  ]
+    ]
 }
