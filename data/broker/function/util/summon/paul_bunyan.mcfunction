@@ -1,0 +1,46 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","paul_bunyan"],\
+    CustomName:'{"text":"Paul Bunyan","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:weaponsmith",\
+        type:"minecraft:savanna",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:oak_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:spruce_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:birch_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:jungle_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:acacia_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:dark_oak_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mangrove_wood",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:warped_hyphae",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crimson_hyphae",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cherry_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:pale_oak_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:warped_hyphae",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crimson_hyphae",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_oak_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_jungle_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_acacia_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_dark_oak_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_mangrove_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_cherry_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_pale_oak_wood",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_warped_hyphae",count:4},buy:{id:"minecraft:player_head",count:6,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:stripped_crimson_hyphae",count:4},buy:{id:"minecraft:player_head",count:6,components:$(silver_token_component)}}\
+        ]\
+    }\
+}

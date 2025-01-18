@@ -1,0 +1,45 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","botany_bob"],\
+    CustomName:'{"text":"Botany Bob","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:nitwit",\
+        type:"minecraft:desert",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:dandelion",count:4},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:poppy",count:4},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:blue_orchid",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:allium",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:azure_bluet",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:red_tulip",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:orange_tulip",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:white_tulip",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:pink_tulip",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:oxeye_daisy",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cornflower",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:lily_of_the_valley",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:sunflower",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:peony",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:rose_bush",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:lilac",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:pink_petals",count:8},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:torchflower",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:pitcher_plant",count:4},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:torchflower",count:4},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:wither_rose",count:4},buy:{id:"minecraft:player_head",count:1,components:$(gold_token_component)}}\
+        ]\
+    }\
+}

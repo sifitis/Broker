@@ -1,0 +1,40 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","mycology_mike"],\
+    CustomName:'{"text":"Mycology Mike","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:nitwit",\
+        type:"minecraft:snow",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:brown_mushroom",count:4},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:red_mushroom",count:4},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crimson_fungus",count:2},buy:{id:"minecraft:player_head",count:48,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:warped_fungus",count:2},buy:{id:"minecraft:player_head",count:48,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crimson_roots",count:1},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:warped_roots",count:1},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:nether_sprouts",count:1},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:twisting_vines",count:1},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:weeping_vines",count:1},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:glow_lichen",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:brown_mushroom_block",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:red_mushroom_block",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mushroom_stem",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:shroomlight",count:1},buy:{id:"minecraft:player_head",count:16,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:moss_block",count:1},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:moss_carpet",count:1},buy:{id:"minecraft:player_head",count:1,components:$(copper_token_component)}}\
+        ]\
+    }\
+}

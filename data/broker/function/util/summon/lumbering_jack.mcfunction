@@ -1,0 +1,46 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","lumbering_jack"],\
+    CustomName:'{"text":"Lumbering Jack","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:toolsmith",\
+        type:"minecraft:plains",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:oak_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:spruce_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:birch_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:jungle_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:acacia_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:dark_oak_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mangrove_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cherry_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:pale_oak_log",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:warped_stem",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crimson_stem",count:4},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:oak_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:spruce_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:birch_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:jungle_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:acacia_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:dark_oak_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mangrove_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cherry_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:pale_oak_planks",count:4},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:warped_planks",count:4},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crimson_planks",count:4},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}}\
+        ]\
+    }\
+}

@@ -1,0 +1,43 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","green_thumb_greg"],\
+    CustomName:'{"text":"Green Thumb Greg","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:cleric",\
+        type:"minecraft:savanna",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:kelp",count:8},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:sugar_cane",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:bamboo",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:lily_pad",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cactus",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:sea_pickle",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:seagrass",count:4},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:dead_bush",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:vine",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:tall_grass",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:short_grass",count:16},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:large_fern",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:fern",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:flowering_azalea",count:1},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:azalea",count:1},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:hanging_roots",count:4},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:small_dripleaf",count:4},buy:{id:"minecraft:player_head",count:1,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:big_dripleaf",count:4},buy:{id:"minecraft:player_head",count:48,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:spore_blossom",count:1},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}}\
+        ]\
+    }\
+}

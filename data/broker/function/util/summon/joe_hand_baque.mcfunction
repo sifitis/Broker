@@ -1,0 +1,40 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","joe_hand_baque"],\
+    CustomName:'{"text":"Joe Hand Baque","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:fletcher",\
+        type:"minecraft:desert",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_chirp",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_far",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_mall",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_mellohi",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_stal",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_strad",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_ward",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_11",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_wait",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_otherside",count:1},buy:{id:"minecraft:player_head",count:32,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_5",count:1},buy:{id:"minecraft:player_head",count:32,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_pigstep",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_relic",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_creator",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_creator_music_box",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:music_disc_precipice",count:1},buy:{id:"minecraft:player_head",count:8,components:$(gold_token_component)}}\
+        ]\
+    }\
+}

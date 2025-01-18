@@ -1,0 +1,38 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","master_quarryman"],\
+    CustomName:'{"text":"Master Quarryman","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:mason",\
+        type:"minecraft:taiga",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:netherrack",count:1},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:netherrack",count:64},buy:{id:"minecraft:player_head",count:16,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:end_stone",count:1},buy:{id:"minecraft:player_head",count:16,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:end_stone",count:64},buy:{id:"minecraft:player_head",count:16,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:deepslate",count:1},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:deepslate",count:64},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:calcite",count:1},buy:{id:"minecraft:player_head",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:calcite",count:64},buy:{id:"minecraft:player_head",count:1,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:obsidian",count:1},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:obsidian",count:64},buy:{id:"minecraft:player_head",count:2,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crying_obsidian",count:1},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:crying_obsidian",count:64},buy:{id:"minecraft:player_head",count:2,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:gilded_blackstone",count:1},buy:{id:"minecraft:player_head",count:5,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:gilded_blackstone",count:64},buy:{id:"minecraft:player_head",count:5,components:$(gold_token_component)}}\
+        ]\
+    }\
+}

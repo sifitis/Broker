@@ -1,0 +1,36 @@
+$summon villager ~ ~ ~ {\
+    Tags:["token_merchant","journeyman_quarryman"],\
+    CustomName:'{"text":"Journeyman Quarryman","color","dark_green"}',\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:"minecraft:jump_strength",base:0},\
+        {id:"minecraft:knockback_resistance",base:1000000},\
+        {id:"minecraft:max_health",base:1000000},\
+        {id:"minecraft:movement_speed",base:0},\
+        {id:"minecraft:step_height",base:0},\
+        {id:"minecraft:burning_time",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:"minecraft:mason",\
+        type:"minecraft:plains",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:"minecraft:blackstone",count:1},buy:{id:"minecraft:player_head",count:12,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mossy_cobblestone",count:64},buy:{id:"minecraft:player_head",count:12,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mossy_cobblestone",count:1},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:mossy_cobblestone",count:64},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:dripstone_block",count:1},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:dripstone_block",count:64},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cobbled_deepslate",count:1},buy:{id:"minecraft:player_head",count:12,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cobbled_deepslate",count:64},buy:{id:"minecraft:player_head",count:12,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:basalt",count:1},buy:{id:"minecraft:player_head",count:12,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:basalt",count:64},buy:{id:"minecraft:player_head",count:12,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:tuff",count:1},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:tuff",count:64},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}}\
+        ]\
+    }\
+}
