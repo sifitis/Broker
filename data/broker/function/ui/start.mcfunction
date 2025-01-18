@@ -24,6 +24,9 @@ execute if score @s broker matches 373301 run scoreboard players set @s broker 0
 execute if score @s broker matches 373302 run function broker:ui/settings/change_setting/conv_mute
 execute if score @s broker matches 373302 run scoreboard players set @s broker 0
 
+# Change automerge.strikes setting
+execute if score @s broker matches 373303 run function broker:ui/settings/change_setting/automerge_strikes
+execute if score @s broker matches 373303 run scoreboard players set @s broker 0
 
 # Default
 execute unless score @s broker matches 0 run function broker:ui/main_menu

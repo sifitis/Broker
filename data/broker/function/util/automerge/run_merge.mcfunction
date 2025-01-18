@@ -40,7 +40,8 @@ scoreboard players operation dG zz.broker.util.automerge.merge -= G0 zz.broker.u
 scoreboard players operation dP zz.broker.util.automerge.merge -= P0 zz.broker.util.automerge.merge
 scoreboard players operation dM zz.broker.util.automerge.merge -= M0 zz.broker.util.automerge.merge
 
-# Debug code
+# --- Debug code --- #
+
 tellraw @s {"text":""}
 
  tellraw @s [{"text":" IN: [ "},\
@@ -84,6 +85,14 @@ execute unless score dP zz.broker.util.automerge.merge matches 0 run \
 execute unless score dM zz.broker.util.automerge.merge matches 0 run \
     function broker:util/automerge/run_merge/adjust_token {type_num:5,type_str:"mithril",type_char:"M"}
 
+# Set cooldown
+scoreboard players operation @s zz.broker.uservar.util.cooldown = .automerge_cooldown zz.broker.globalvar.settings
+scoreboard players set @s zz.broker.uservar.automerge.flag 0
+
+# --- Cleanup --- #
+execute if score .do_garbage_collection zz.broker.uservar.automerge.flag matches 1 run \
+    execute unless score .num_entries zz.broker.uservar.automerge.flag matches 1.. run \
+        scoreboard objectives remove zz.broker.uservar.automerge.flag
 
 execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run \
     scoreboard objectives remove zz.broker.util.automerge.merge

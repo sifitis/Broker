@@ -18,5 +18,5 @@ tellraw @s \
             ]}\
         },\
         {"text":"] ["},{"nbt":"ui.settings.automerge.timeout","storage":"datapack:broker","interpret":true},{"text":"] - "},\
-        {"text":"How long should Automerge (in Smart mode) pause after disabling before resuming merges.","color":"gray"}\
+        {"text":"How long should Automerge (in Smart mode) pause after disabling before resuming merges. (Default 2m)","color":"gray"}\
     ]}

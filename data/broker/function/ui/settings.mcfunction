@@ -36,6 +36,10 @@ tellraw @s \
 
 execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 run function broker:ui/settings/setting_button/automerge_timeout
 
+# --- Automerge Smartmode Timeout --- #
+
+execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 run function broker:ui/settings/setting_button/automerge_strikes
+
 # --- Conversion Pop Mute --- #
 
 execute if score @s zz.broker.uservar.setting.conv.mute matches 0 run data modify storage datapack:broker ui.settings.conv.mute set value '{"text":"Unmuted","color":"green"}'

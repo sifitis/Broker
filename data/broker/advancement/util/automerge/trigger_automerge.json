@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "inventory_changed": {
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "rewards": {
+      "function": "broker:util/automerge/start"
+    },
+    "sends_telemetry_event": false
+}
