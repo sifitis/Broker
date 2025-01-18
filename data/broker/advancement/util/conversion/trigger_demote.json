@@ -7,7 +7,8 @@
             "slots": {
               "weapon.offhand": {
                 "count": {
-                  "max": 1
+                  "max": 1,
+                  "min": 1
                 }
               }
             }
