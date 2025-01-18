@@ -41,31 +41,31 @@ scoreboard players operation dP zz.broker.util.automerge.merge -= P0 zz.broker.u
 scoreboard players operation dM zz.broker.util.automerge.merge -= M0 zz.broker.util.automerge.merge
 
 # Debug code
-# tellraw @s {"text":""}
+tellraw @s {"text":""}
 
-#  tellraw @s [{"text":" IN: [ "},\
-#     {"score":{"name":"C0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"S0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"G0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"P0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"M0","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
-#  ]
+ tellraw @s [{"text":" IN: [ "},\
+    {"score":{"name":"C0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"S0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"G0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"P0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"M0","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
+ ]
 
-# tellraw @s [{"text":"  +: [ "},\
-#     {"score":{"name":"dC","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dS","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dG","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dP","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dM","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
-# ]
+tellraw @s [{"text":"  +: [ "},\
+    {"score":{"name":"dC","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"dS","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"dG","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"dP","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"dM","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
+]
 
-# tellraw @s [{"text":"OUT: [ "},\
-#     {"score":{"name":"C1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"S1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"G1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"P1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"M1","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
-# ]
+tellraw @s [{"text":"OUT: [ "},\
+    {"score":{"name":"C1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"S1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"G1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"P1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
+    {"score":{"name":"M1","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
+]
 
 tellraw @s {"text":""}
 
