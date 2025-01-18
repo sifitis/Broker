@@ -2,7 +2,7 @@ execute if score @s zz.broker.uservar.setting.automerge.strikes matches 1 run da
 execute if score @s zz.broker.uservar.setting.automerge.strikes matches 2 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"2","color":"#1ceeee"}'
 execute if score @s zz.broker.uservar.setting.automerge.strikes matches 3 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"3","color":"#1ceeee"}'
 execute if score @s zz.broker.uservar.setting.automerge.strikes matches 4 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"4","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.strikes matches -1 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"Never","color":"red"}'
+execute if score @s zz.broker.uservar.setting.automerge.strikes matches 1000000 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"Never","color":"red"}'
 
 tellraw @s [{"text":""}]
 tellraw @s \
@@ -13,7 +13,7 @@ tellraw @s \
             {"action":"run_command","value":"/trigger broker set 373303"},\
         "hoverEvent":\
             {"action":"show_text","contents":[\
-                {"text":"","color":"gray"},{"text":"Change automerge pause timeout\n","underlined":true,"color":"gray"},\
+                {"text":"","color":"gray"},{"text":"Change automerge pause strikes\n","underlined":true,"color":"gray"},\
                 {"text":"Toggle between 1, 2, 3, 4, and 'Never'."}\
             ]}\
         },\

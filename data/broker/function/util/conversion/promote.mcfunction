@@ -18,8 +18,9 @@ scoreboard players set @s zz.broker.uservar.conv.promote 0
 # --- Handle Logic for Smart Automerge --- #
 
 execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 \
-    if score @s zz.broker.uservar.util.automerge.pause.strikes < @s zz.broker.uservar.setting.automerge.strikes run \
-        function broker:util/automerge/add_strike
+    if score @s zz.broker.uservar.setting.automerge.strikes matches ..999999 \
+        if score @s zz.broker.uservar.util.automerge.pause.strikes < @s zz.broker.uservar.setting.automerge.strikes run \
+            function broker:util/automerge/add_strike
 
 execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 \
     if score @s zz.broker.uservar.util.automerge.pause.strikes >= @s zz.broker.uservar.setting.automerge.strikes run \
