@@ -6,7 +6,9 @@
           "player": {
             "slots": {
               "weapon.offhand": {
-                "count": 1
+                "count": {
+                  "max": 1
+                }
               }
             }
           }

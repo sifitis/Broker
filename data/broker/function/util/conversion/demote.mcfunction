@@ -16,7 +16,7 @@ scoreboard objectives remove zz.broker.util.conv
 advancement revoke @s only broker:util/conversion/trigger_demote
 
 scoreboard players remove .num_entries zz.broker.uservar.conv.demote 1
-scoreboard players set @s zz.broker.uservar.conv.promote 0
+scoreboard players set @s zz.broker.uservar.conv.demote 0
 
 execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run \
     execute unless score .num_entries zz.broker.uservar.conv.demote matches 1.. run \
