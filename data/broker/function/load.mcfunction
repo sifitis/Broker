@@ -1,7 +1,7 @@
 
 # This is where all of the important stuff is done to start the datapack up
 
-tellraw @a [{"text":"❂Broker v3.0 loaded.","color":"red"}]
+tellraw @a [{"text":"❂Broker v3.0 loaded.","color":"#5d7fbd"}]
 
 # ================================================================================================ #
 #  Essential objectives  
@@ -28,8 +28,9 @@ execute unless score .do_garbage_collection zz.broker.globalvar.settings matches
 # Mute sound when converting coins.
 scoreboard objectives add zz.broker.uservar.setting.conv.mute dummy
 
-# Disable token automerge
-scoreboard objectives add zz.broker.uservar.setting.automerge.enabled dummy
+#  token automerge mode
+scoreboard objectives add zz.broker.uservar.setting.automerge.mode dummy
+scoreboard objectives add zz.broker.uservar.setting.automerge.timeout dummy
 
 # ================================================================================================ #
 #  Command Storage Data 
@@ -37,6 +38,7 @@ scoreboard objectives add zz.broker.uservar.setting.automerge.enabled dummy
 
 # Generate default manifest if there isn't one
 execute unless data storage datapack:broker data.component_manifest run function broker:util/manifest/initialize_default_manifest
+execute unless data storage datapack:broker data.ui run function broker:util/ui/init_text_elements
 
 # ================================================================================================ #
 #  Trigger Objectives 

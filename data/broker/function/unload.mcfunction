@@ -26,7 +26,8 @@
 # zz.broker.uservar.setting.conv.mute
 
 # Disable token automerge
-# zz.broker.uservar.setting.automerge.enabled
+# zz.broker.uservar.setting.automerge.mode
+# zz.broker.uservar.setting.automerge.timeout
 
 # ================================================================================================ #
 #  Command Storage Data 
@@ -34,6 +35,7 @@
 
 # Generate default manifest if there isn't one
 # data.component_manifest
+# data.ui
 
 # ================================================================================================ #
 #  Trigger Objectives 
