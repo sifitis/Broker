@@ -25,3 +25,19 @@ tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\
     {"text":"] ["},\
     {"score":{"name":".automerge_cooldown","objective":"zz.broker.globalvar.settings"},"color":"#1ceeee"},\
     {"text":"]"},{"text":" - How many ticks must pass after an automerge completes before another can occur. (Default 120)","color":"gray"}]}
+
+tellraw @s [{"text":""}]
+
+tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\
+    {"text":"Villager Regen Time","color":"#dcf7f6","clickEvent":{"action":"suggest_command","value":"/scoreboard players set .villager_regenerate_ticks zz.broker.globalvar.settings <TICKS>"}},\
+    {"text":"] ["},\
+    {"score":{"name":".villager_regenerate_ticks","objective":"zz.broker.globalvar.settings"},"color":"#1ceeee"},\
+    {"text":"]"},{"text":" - How many ticks occur between shopkeeper villager respawn attempts. (Default 24000)","color":"gray"}]}
+
+
+
+tellraw @s [{"text":""}]
+
+tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\
+    {"text":"Force Regen Villagers","color":"#ffde4d","clickEvent":{"action":"run_command","value":"/function broker:util/subprocess/regenerate_villagers"}},\
+    {"text":"]"},{"text":" - All shopkeeper villagers will respawn immediately- this will also restart the regen timer.","color":"gray"}]}

@@ -1,4 +1,2 @@
 
-Remember to add a player-specific starting configuration
-
-Add customNameVisible to villagers
+Change admin settings from suggest_command to change scoreboard to suggest_command run function change_setting {<input>} so the menu can refresh when its complete. See garbage_collection for reference
