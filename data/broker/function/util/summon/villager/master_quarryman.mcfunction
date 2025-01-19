@@ -1,6 +1,7 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","master_quarryman"],\
-    CustomName:'{"text":"Master Quarryman","color","dark_green"}',\
+    CustomName:'{"text":"Master Quarryman","color":"dark_green"}',\
+    CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\
     Health:1000000f,\

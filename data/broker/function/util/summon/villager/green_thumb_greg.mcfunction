@@ -1,6 +1,7 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","green_thumb_greg"],\
-    CustomName:'{"text":"Green Thumb Greg","color","dark_green"}',\
+    CustomName:'{"text":"Green Thumb Greg","color":"dark_green"}',\
+    CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\
     Health:1000000f,\

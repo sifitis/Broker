@@ -1,6 +1,7 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","botany_bob"],\
-    CustomName:'{"text":"Botany Bob","color","dark_green"}',\
+    CustomName:'{"text":"Botany Bob","color":"dark_green"}',\
+    CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\
     Health:1000000f,\

@@ -26,6 +26,10 @@ execute unless score .do_garbage_collection zz.broker.globalvar.settings matches
 execute unless score .automerge_cooldown zz.broker.globalvar.settings matches 0..2147483647 run \
     scoreboard players set .automerge_cooldown zz.broker.globalvar.settings 120
 
+# Villager regenerate time (in ticks)
+execute unless score .villager_regenerate_ticks zz.broker.globalvar.settings matches 0..2147483647 run \
+    scoreboard players set .villager_regenerate_ticks zz.broker.globalvar.settings 24000
+
 # ================================================================================================ #
 #  Player-specific variables 
 # ================================================================================================ #
@@ -61,10 +65,10 @@ execute unless data storage datapack:broker data.ui run function broker:util/ui/
 #  Trigger Objectives 
 # ================================================================================================ #
 
-function broker:util/subprocess/trigger_enabler
-
 # Player access portal for all broker functionality
 scoreboard objectives add broker trigger
+
+function broker:util/subprocess/trigger_enabler
 
 # ================================================================================================ #
 #  Constants 
@@ -72,3 +76,9 @@ scoreboard objectives add broker trigger
 
 scoreboard players set .-1 zz.broker.const -1
 scoreboard players set .64 zz.broker.const 64
+
+# ================================================================================================ #
+#  Villager Respawn 
+# ================================================================================================ #
+
+schedule function broker:util/subprocess/regenerate_villagers 5s
