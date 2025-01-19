@@ -17,3 +17,11 @@ tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\
     {"text":"❂","color":"#dcf7f6","clickEvent":{"action":"run_command","value":"/function admin:broker/give_platinum_token"}},{"text":" "},\
     {"text":"❂","color":"#9ec0ff","clickEvent":{"action":"run_command","value":"/function admin:broker/give_mithril_token"}},\
     {"text":"]"},{"text":" - Spawn token","color":"gray"}]}
+
+tellraw @s [{"text":""}]
+
+tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\
+    {"text":"Automerge Cooldown","color":"#dcf7f6","clickEvent":{"action":"suggest_command","value":"/scoreboard players set .automerge_cooldown zz.broker.globalvar.settings <TICKS>"}},\
+    {"text":"] ["},\
+    {"score":{"name":".automerge_cooldown","objective":"zz.broker.globalvar.settings"},"color":"#1ceeee"},\
+    {"text":"]"},{"text":" - How many ticks must pass after an automerge completes before another can occur. (Default 120)","color":"gray"}]}

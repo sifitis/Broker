@@ -2,10 +2,10 @@
 tellraw @s [{"text":""}]
 tellraw @s [\
     {"text":"<Back]","color":"#dcf7f6",\
-        "clickEvent":{"action":"run_command","value":"/trigger broker set 1"}},\
-    {"text":"                  ❂ Broker Admin Panel ❂              ","color":"#ff1133"},\
-    {"text":"","color":"#dcf7f6",\
-        "clickEvent":{"action":"run_command","value":"/function broker:ui/admin/admin_2"}}\
+        "clickEvent":{"action":"run_command","value":"/function broker:ui/admin"}},\
+    {"text":"                  ❂ Broker Admin Panel ❂             ","color":"#ff1133"},\
+    {"text":"[Page 3>","color":"#dcf7f6",\
+        "clickEvent":{"action":"run_command","value":"/function broker:ui/admin/admin_3"}}\
 ]
 
 tellraw @s [{"text":"=====================================================","color":"#880022"}]
