@@ -67,6 +67,9 @@ tellraw @s {"text":"","color":"#666666","extra":[\
     {"text":"•sir_amik spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"sir_amik\"}"}}\
 ]}
 
+tellraw @s {"text":"","color":"#666666","extra":[\
+    {"text":"•protection_merchant spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"protection_merchant\"}"}}\
+]}
 
 # REMEMBER TO ADD A SPAWNER!
 

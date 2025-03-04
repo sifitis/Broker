@@ -67,6 +67,9 @@ tellraw @s {"text":"","color":"#666666","extra":[\
     {"text":"•sir_amik","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/sir_amik with storage datapack:broker data.component_manifest"}}\
 ]}
 
+tellraw @s {"text":"","color":"#666666","extra":[\
+    {"text":"•","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/protection_merchant with storage datapack:broker data.component_manifest"}}\
+]}
 
 # REMEMBER TO ADD A SPAWNER!
 

@@ -1,0 +1,35 @@
+$summon villager ~ ~ ~ {\
+    Tags:[""token_merchant"",""protection_merchant""],\
+    CustomName:'{""text"":""Protection Merchant"",""color"":""dark_green""}',\
+    CustomNameVisible:1b,\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:""minecraft:jump_strength"",base:0},\
+        {id:""minecraft:knockback_resistance"",base:1000000},\
+        {id:""minecraft:max_health"",base:1000000},\
+        {id:""minecraft:movement_speed"",base:0},\
+        {id:""minecraft:step_height"",base:0},\
+        {id:""minecraft:burning_time"",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:""minecraft:weaponsmith"",\
+        type:""minecraft:plains"",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:""goml:makeshift_claim_anchor"",count:1},buy:{id:""minecraft:player_head"",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:reinforced_upgrade_kit"",count:1},buy:{id:""minecraft:player_head"",count:1,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:glistening_upgrade_kit"",count:1},buy:{id:""minecraft:player_head"",count:8,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:crystal_upgrade_kit"",count:1},buy:{id:""minecraft:player_head"",count:32,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:emeradic_upgrade_kit"",count:1},buy:{id:""minecraft:player_head"",count:8,components:$(platinum_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:withered_upgrade_kit"",count:1},buy:{id:""minecraft:player_head"",count:32,components:$(platinum_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:greeter"",count:1},buy:{id:""minecraft:player_head"",count:10,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:pvp_arena"",count:1},buy:{id:""minecraft:player_head"",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:explosion_controller"",count:1},buy:{id:""minecraft:player_head"",count:1,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""goml:goggles"",count:1},buy:{id:""minecraft:player_head"",count:1,components:$(silver_token_component)}}\
+        ]\
+    }\
+}
