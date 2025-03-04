@@ -1,0 +1,35 @@
+$summon villager ~ ~ ~ {\
+    Tags:[""token_merchant"",""apprentice_greg_nite""],\
+    CustomName:'{""text"":""Apprentice Greg Nite"",""color"":""dark_green""}',\
+    CustomNameVisible:1b,\
+    PersistenceRequired:1b,\
+    CanPickUpLoot:0b,\
+    Health:1000000f,\
+    attributes:[\
+        {id:""minecraft:jump_strength"",base:0},\
+        {id:""minecraft:knockback_resistance"",base:1000000},\
+        {id:""minecraft:max_health"",base:1000000},\
+        {id:""minecraft:movement_speed"",base:0},\
+        {id:""minecraft:step_height"",base:0},\
+        {id:""minecraft:burning_time"",base:0}\
+    ],\
+    VillagerData:{\
+        level:5,\
+        profession:""minecraft:mason"",\
+        type:""minecraft:jungle"",\
+    },\
+    Offers:{\
+        Recipes:[\
+            {maxUses:10000,sell:{id:""minecraft:stone"",count:1},buy:{id:""minecraft:player_head"",count:12,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:stone"",count:64},buy:{id:""minecraft:player_head"",count:12,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:cobblestone"",count:1},buy:{id:""minecraft:player_head"",count:4,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:cobblestone"",count:1},buy:{id:""minecraft:player_head"",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:granite"",count:64},buy:{id:""minecraft:player_head"",count:8,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:granite"",count:1},buy:{id:""minecraft:player_head"",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:andesite"",count:64},buy:{id:""minecraft:player_head"",count:8,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:andesite"",count:1},buy:{id:""minecraft:player_head"",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:diorite"",count:64},buy:{id:""minecraft:player_head"",count:8,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:""minecraft:diorite"",count:1},buy:{id:""minecraft:player_head"",count:8,components:$(silver_token_component)}}\
+        ]\
+    }\
+}

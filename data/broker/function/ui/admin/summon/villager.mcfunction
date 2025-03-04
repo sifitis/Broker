@@ -16,7 +16,7 @@ tellraw @s [{"text":"Summon shopkeeper - - - - - - - - - - -","color":"#666666"}
 
 
 tellraw @s {"text":"","color":"#666666","extra":[\
-    {"text":"•apprentice_quarryman","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/apprentice_quarryman with storage datapack:broker data.component_manifest"}}\
+    {"text":"•apprentice_quarryman","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/apprentice_greg_nite with storage datapack:broker data.component_manifest"}}\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
@@ -40,11 +40,11 @@ tellraw @s {"text":"","color":"#666666","extra":[\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
-    {"text":"•journeyman_quarryman","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/journeyman_quarryman with storage datapack:broker data.component_manifest"}}\
+    {"text":"•journeyman_quarryman","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/journeyman_deo_right with storage datapack:broker data.component_manifest"}}\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
-    {"text":"•master_quarryman","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/master_quarryman with storage datapack:broker data.component_manifest"}}\
+    {"text":"•master_quarryman","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/villager/master_andy_syte with storage datapack:broker data.component_manifest"}}\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\

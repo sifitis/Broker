@@ -16,7 +16,7 @@ tellraw @s [{"text":"Summon shopkeeper spawnpoint - - - - - - - - - - -","color"
 
 
 tellraw @s {"text":"","color":"#666666","extra":[\
-    {"text":"•apprentice_quarryman spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"apprentice_quarryman\"}"}}\
+    {"text":"•apprentice_quarryman spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"apprentice_greg_nite\"}"}}\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
@@ -40,11 +40,11 @@ tellraw @s {"text":"","color":"#666666","extra":[\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
-    {"text":"•journeyman_quarryman spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"journeyman_quarryman\"}"}}\
+    {"text":"•journeyman_quarryman spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"journeyman_deo_right\"}"}}\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
-    {"text":"•master_quarryman spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"master_quarryman\"}"}}\
+    {"text":"•master_quarryman spawnpoint","color":"green","clickEvent":{"action":"run_command","value":"/function broker:util/summon/spawnpoint {type:\"master_andy_syte\"}"}}\
 ]}
 
 tellraw @s {"text":"","color":"#666666","extra":[\
