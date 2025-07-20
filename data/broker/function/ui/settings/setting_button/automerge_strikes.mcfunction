@@ -1,8 +1,8 @@
-execute if score @s zz.broker.uservar.setting.automerge.strikes matches 1 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"1","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.strikes matches 2 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"2","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.strikes matches 3 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"3","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.strikes matches 4 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"4","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.strikes matches 1000000 run data modify storage datapack:broker ui.settings.automerge.strikes set value '{"text":"Never","color":"red"}'
+execute if score @s zz.broker.uservar.setting.automerge.strikes matches 1 run data modify storage datapack:broker ui.settings.automerge.strikes set value {"text":"1","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.strikes matches 2 run data modify storage datapack:broker ui.settings.automerge.strikes set value {"text":"2","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.strikes matches 3 run data modify storage datapack:broker ui.settings.automerge.strikes set value {"text":"3","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.strikes matches 4 run data modify storage datapack:broker ui.settings.automerge.strikes set value {"text":"4","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.strikes matches 1000000 run data modify storage datapack:broker ui.settings.automerge.strikes set value {"text":"Never","color":"red"}
 
 tellraw @s [{"text":""}]
 tellraw @s \

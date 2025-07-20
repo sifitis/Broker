@@ -10,9 +10,9 @@ tellraw @s [{"text":"=====================================================","col
 
 # --- Automerge Mode --- #
 
-execute if score @s zz.broker.uservar.setting.automerge.mode matches 0 run data modify storage datapack:broker ui.settings.automerge.mode set value '{"text":"Off","color":"red"}'
-execute if score @s zz.broker.uservar.setting.automerge.mode matches 1 run data modify storage datapack:broker ui.settings.automerge.mode set value '{"text":"On","color":"green"}'
-execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 run data modify storage datapack:broker ui.settings.automerge.mode set value '{"text":"Smart","color":"yellow"}'
+execute if score @s zz.broker.uservar.setting.automerge.mode matches 0 run data modify storage datapack:broker ui.settings.automerge.mode set value {"text":"Off","color":"red"}
+execute if score @s zz.broker.uservar.setting.automerge.mode matches 1 run data modify storage datapack:broker ui.settings.automerge.mode set value {"text":"On","color":"green"}
+execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 run data modify storage datapack:broker ui.settings.automerge.mode set value {"text":"Smart","color":"yellow"}
 
 tellraw @s \
     {"text":"","color":"#666666","extra":[\
@@ -42,8 +42,8 @@ execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 run funct
 
 # --- Conversion Pop Mute --- #
 
-execute if score @s zz.broker.uservar.setting.conv.mute matches 0 run data modify storage datapack:broker ui.settings.conv.mute set value '{"text":"Unmuted","color":"green"}'
-execute if score @s zz.broker.uservar.setting.conv.mute matches 1 run data modify storage datapack:broker ui.settings.conv.mute set value '{"text":"Muted","color":"red"}'
+execute if score @s zz.broker.uservar.setting.conv.mute matches 0 run data modify storage datapack:broker ui.settings.conv.mute set value {"text":"Unmuted","color":"green"}
+execute if score @s zz.broker.uservar.setting.conv.mute matches 1 run data modify storage datapack:broker ui.settings.conv.mute set value {"text":"Muted","color":"red"}
 
 tellraw @s [{"text":""}]
 tellraw @s \

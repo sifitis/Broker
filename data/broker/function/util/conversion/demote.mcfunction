@@ -1,7 +1,7 @@
 
 # --- Create scoreboards and collect data --- #
 scoreboard objectives add zz.broker.util.conv dummy
-execute store result score token_type zz.broker.util.conv run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".broker.type
+execute store result score token_type zz.broker.util.conv run data get entity @s equipment.offhand.components."minecraft:custom_data".broker.type
 execute store success score inv_full zz.broker.util.conv run data get entity @s Inventory[35]
 
 # --- set the token give amount --- #

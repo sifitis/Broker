@@ -15,8 +15,7 @@ scoreboard objectives add zz.broker.const dummy
 # ================================================================================================ #
 scoreboard objectives add zz.broker.globalvar.settings dummy
 
-
-# Defaults ---------------------------------------------------- #
+# Setting Defaults ---------------------------------------------------- #
 
 # Should the datapack perform garbage collection on empty scoreboards
 execute unless score .do_garbage_collection zz.broker.globalvar.settings matches 0..1 run \
@@ -29,6 +28,8 @@ execute unless score .automerge_cooldown zz.broker.globalvar.settings matches 0.
 # Villager regenerate time (in ticks)
 execute unless score .villager_regenerate_ticks zz.broker.globalvar.settings matches 0..2147483647 run \
     scoreboard players set .villager_regenerate_ticks zz.broker.globalvar.settings 24000
+
+scoreboard players set .token_version zz.broker.globalvar.settings 2
 
 # ================================================================================================ #
 #  Player-specific variables 

@@ -14,8 +14,8 @@ tellraw @s [{"text":""}]
 
 # --- Garbage Collection Mode --- #
 
-execute if score .do_garbage_collection zz.broker.globalvar.settings matches 0 run data modify storage datapack:broker ui.admin.do_garbage_collection set value '{"text":"Off","color":"red"}'
-execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run data modify storage datapack:broker ui.admin.do_garbage_collection set value '{"text":"On","color":"green"}'
+execute if score .do_garbage_collection zz.broker.globalvar.settings matches 0 run data modify storage datapack:broker ui.admin.do_garbage_collection set value {"text":"Off","color":"red"}
+execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run data modify storage datapack:broker ui.admin.do_garbage_collection set value {"text":"On","color":"green"}
 
 tellraw @s \
     {"text":"","color":"#666666","extra":[\

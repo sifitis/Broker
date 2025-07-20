@@ -1,8 +1,8 @@
-execute if score @s zz.broker.uservar.setting.automerge.timeout matches 600 run data modify storage datapack:broker ui.settings.automerge.timeout set value '{"text":"30s","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.timeout matches 1200 run data modify storage datapack:broker ui.settings.automerge.timeout set value '{"text":"1m","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.timeout matches 2400 run data modify storage datapack:broker ui.settings.automerge.timeout set value '{"text":"2m","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.timeout matches 6000 run data modify storage datapack:broker ui.settings.automerge.timeout set value '{"text":"5m","color":"#1ceeee"}'
-execute if score @s zz.broker.uservar.setting.automerge.timeout matches -1 run data modify storage datapack:broker ui.settings.automerge.timeout set value '{"text":"Forever","color":"red"}'
+execute if score @s zz.broker.uservar.setting.automerge.timeout matches 600 run data modify storage datapack:broker ui.settings.automerge.timeout set value {"text":"30s","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.timeout matches 1200 run data modify storage datapack:broker ui.settings.automerge.timeout set value {"text":"1m","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.timeout matches 2400 run data modify storage datapack:broker ui.settings.automerge.timeout set value {"text":"2m","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.timeout matches 6000 run data modify storage datapack:broker ui.settings.automerge.timeout set value {"text":"5m","color":"#1ceeee"}
+execute if score @s zz.broker.uservar.setting.automerge.timeout matches -1 run data modify storage datapack:broker ui.settings.automerge.timeout set value {"text":"Forever","color":"red"}
 
 tellraw @s [{"text":""}]
 tellraw @s \
