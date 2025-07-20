@@ -11,6 +11,6 @@ tellraw @s [{"text":""}]
 
 tellraw @s [{"text":"If you are sure, place the reference item in your FIRST hotbar slot and press the button below.","color":"gray"}]
 
-tellraw @s [{"text":"                                 [Confirm]","color":"#1CEEEE","clickEvent":\
-    {"action":"suggest_command","value":"/function broker:util/manifest/set_manifest_yes_really {entry_id:\"<PUT YOUR ID HERE>\"}"}\
+tellraw @s [{"text":"                                 [Confirm]","color":"#1CEEEE","click_event":\
+    {"action":"suggest_command","command":"/function broker:util/manifest/set_manifest_yes_really {entry_id:\"<PUT YOUR ID HERE>\"}"}\
 }]

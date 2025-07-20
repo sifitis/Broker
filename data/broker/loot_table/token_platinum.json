@@ -26,14 +26,14 @@
                       }
                     ]
                   },
-                  "minecraft:item_name": "[{\"text\":\"     ❂ \",\"italic\":false,\"color\":\"#dcf7f6\"},{\"text\":\"Platinum Token\",\"color\":\"#666666\"},{\"text\":\" ❂\"}]",
+                  "minecraft:item_name": [{"text":"     ❂ ","italic":false,"color":"#dcf7f6"},{"text":"Platinum Token","color":"#666666"},{"text":" ❂"}],
                   "minecraft:lore": [
-                    "[{\"text\":\"------------------------\",\"italic\":false,\"color\":\"#dcf7f6\"}]",
-                    "[{\"text\":\"Value:\",\"italic\":false,\"color\":\"#666666\"},{\"text\":\" \"},{\"text\":\"262,144 ct\",\"color\":\"gray\"}]",
-                    "[{\"text\":\"\"}]",
-                    "[{\"text\":\"Offhand:\",\"italic\":false,\"color\":\"#666666\"}]",
-                    "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},{\"text\":\" \",\"bold\":true},{\"text\":\" \",\"bold\":true},{\"text\":\"1 \"},{\"text\":\"❂\",\"color\":\"#dcf7f6\"},{\"text\":\"Platinum ⇒ 64 \"},{\"text\":\"❂\",\"color\":\"#ffde4d\"},{\"text\":\"Gold\"}]",
-                    "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},{\"text\":\" 64 \"},{\"text\":\"❂\",\"color\":\"#dcf7f6\"},{\"text\":\"Platinum ⇒\"},{\"text\":\" \",\"bold\":true},{\"text\":\" \",\"bold\":true},\"1 \",{\"text\":\"❂\",\"color\":\"#9ec0ff\"},{\"text\":\"Mithril\"}]"
+                    [{"text":"------------------------","italic":false,"color":"#dcf7f6"}],
+                    [{"text":"Value:","italic":false,"color":"#666666"},{"text":" "},{"text":"262,144 ct","color":"gray"}],
+                    [{"text":""}],
+                    [{"text":"Offhand:","italic":false,"color":"#666666"}],
+                    [{"text":"","italic":false,"color":"gray"},{"text":" ","bold":true},{"text":" ","bold":true},{"text":"1 "},{"text":"❂","color":"#dcf7f6"},{"text":"Platinum ⇒ 64 "},{"text":"❂","color":"#ffde4d"},{"text":"Gold"}],
+                    [{"text":"","italic":false,"color":"gray"},{"text":" 64 "},{"text":"❂","color":"#dcf7f6"},{"text":"Platinum ⇒"},{"text":" ","bold":true},{"text":" ","bold":true},"1 ",{"text":"❂","color":"#9ec0ff"},{"text":"Mithril"}]
                   ]
                 }
               },

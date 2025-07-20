@@ -46,8 +46,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "!minecraft:equippable": {},
-                "minecraft:hide_additional_tooltip": {}
+                "!minecraft:equippable": {}
               },
               "conditions": []
             },

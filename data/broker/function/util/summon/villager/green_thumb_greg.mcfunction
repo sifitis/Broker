@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","green_thumb_greg"],\
-    CustomName:'{"text":"Green Thumb Greg","color":"dark_green"}',\
+    CustomName:{"text":"Green Thumb Greg","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\
@@ -38,7 +38,11 @@ $summon villager ~ ~ ~ {\
             {maxUses:10000,sell:{id:"minecraft:hanging_roots",count:4},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
             {maxUses:10000,sell:{id:"minecraft:small_dripleaf",count:4},buy:{id:"minecraft:player_head",count:1,components:$(gold_token_component)}},\
             {maxUses:10000,sell:{id:"minecraft:big_dripleaf",count:4},buy:{id:"minecraft:player_head",count:48,components:$(silver_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:spore_blossom",count:1},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}}\
+            {maxUses:10000,sell:{id:"minecraft:spore_blossom",count:1},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:bush",count:2},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:firefly_bush",count:1},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:tall_dry_grass",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:short_dry_grass",count:16},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}}\
         ]\
     }\
 }

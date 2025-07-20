@@ -9,8 +9,8 @@ tellraw @s \
     {"text":"","color":"#666666","extra":[\
         {"text":"["},\
         {"text":"Smart Pause Strikes","color":"#dcf7f6",\
-        "clickEvent":\
-            {"action":"run_command","value":"/trigger broker set 373303"},\
+        "click_event":\
+            {"action":"run_command","command":"/trigger broker set 373303"},\
         "hoverEvent":\
             {"action":"show_text","contents":[\
                 {"text":"","color":"gray"},{"text":"Change automerge pause strikes\n","underlined":true,"color":"gray"},\

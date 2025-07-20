@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","apprentice_greg_nite"],\
-    CustomName:'{"text":"Apprentice Greg Nite","color":"dark_green"}',\
+    CustomName:{"text":"Apprentice Greg Nite","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\

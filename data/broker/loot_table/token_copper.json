@@ -26,13 +26,13 @@
                       }
                     ]
                   },
-                  "minecraft:item_name": "[{\"text\":\"     ❂ \",\"italic\":false,\"color\":\"#ba5f2f\"},{\"text\":\"Copper Token\",\"color\":\"#666666\"},{\"text\":\" ❂\"}]",
+                  "minecraft:item_name": [{"text":"     ❂ ","italic":false,"color":"#ba5f2f"},{"text":"Copper Token","color":"#666666"},{"text":" ❂"}],
                   "minecraft:lore": [
-                    "[{\"text\":\"------------------------\",\"italic\":false,\"color\":\"#ba5f2f\"}]",
-                    "[{\"text\":\"Value:\",\"italic\":false,\"color\":\"#666666\"},{\"text\":\" \"},{\"text\":\"1 ct\",\"color\":\"gray\"}]",
-                    "[{\"text\":\"\"}]",
-                    "[{\"text\":\"Offhand:\",\"italic\":false,\"color\":\"#666666\"}]",
-                    "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},{\"text\":\" 64 \"},{\"text\":\"❂\",\"color\":\"#ba5f2f\"},{\"text\":\"Copper ⇒\"},{\"text\":\" \",\"bold\":true},{\"text\":\" \",\"bold\":true},\"1 \",{\"text\":\"❂\",\"color\":\"#d1ccbc\"},{\"text\":\"Silver\"}]"
+                    [{"text":"------------------------","italic":false,"color":"#ba5f2f"}],
+                    [{"text":"Value:","italic":false,"color":"#666666"},{"text":" "},{"text":"1 ct","color":"gray"}],
+                    [{"text":""}],
+                    [{"text":"Offhand:","italic":false,"color":"#666666"}],
+                    [{"text":"","italic":false,"color":"gray"},{"text":" 64 "},{"text":"❂","color":"#ba5f2f"},{"text":"Copper ⇒"},{"text":" ","bold":true},{"text":" ","bold":true},"1 ",{"text":"❂","color":"#d1ccbc"},{"text":"Silver"}]
                   ]
                 }
               },

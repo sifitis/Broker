@@ -2,10 +2,10 @@
 tellraw @s [{"text":""}]
 tellraw @s [\
     {"text":"<Back]","color":"#dcf7f6",\
-        "clickEvent":{"action":"run_command","value":"/function broker:ui/admin"}},\
+        "click_event":{"action":"run_command","command":"/function broker:ui/admin"}},\
     {"text":"                  ❂ Broker Admin Panel ❂             ","color":"#ff1133"},\
     {"text":"[Page 3>","color":"#dcf7f6",\
-        "clickEvent":{"action":"run_command","value":"/function broker:ui/admin/admin_3"}}\
+        "click_event":{"action":"run_command","command":"/function broker:ui/admin/admin_3"}}\
 ]
 
 tellraw @s [{"text":"=====================================================","color":"#880022"}]
@@ -21,8 +21,8 @@ tellraw @s \
     {"text":"","color":"#666666","extra":[\
         {"text":"["},\
         {"text":"Garbage Collection","color":"#dcf7f6",\
-        "clickEvent":\
-            {"action":"run_command","value":"/function broker:ui/admin/change_setting/do_garbage_collection"},\
+        "click_event":\
+            {"action":"run_command","command":"/function broker:ui/admin/change_setting/do_garbage_collection"},\
         "hoverEvent":\
             {"action":"show_text","contents":[\
                 {"text":"","color":"gray"},{"text":"Toggle garbage collection\n","underlined":true,"color":"gray"},\
@@ -37,6 +37,6 @@ tellraw @s \
 # --- Global Settings Sidebar --- #
 tellraw @s [{"text":""}]
 tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\
-    {"text":"Show","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard objectives setdisplay sidebar zz.broker.globalvar.settings"}},{"text":" "},\
-    {"text":"Hide","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard objectives setdisplay sidebar"}},\
+    {"text":"Show","color":"green","click_event":{"action":"run_command","command":"/scoreboard objectives setdisplay sidebar zz.broker.globalvar.settings"}},{"text":" "},\
+    {"text":"Hide","color":"red","click_event":{"action":"run_command","command":"/scoreboard objectives setdisplay sidebar"}},\
     {"text":"]"},{"text":" - Show/hide global settings scoreboard.","color":"gray"}]}

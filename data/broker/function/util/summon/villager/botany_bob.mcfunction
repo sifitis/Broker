@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","botany_bob"],\
-    CustomName:'{"text":"Botany Bob","color":"dark_green"}',\
+    CustomName:{"text":"Botany Bob","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\
@@ -40,7 +40,10 @@ $summon villager ~ ~ ~ {\
             {maxUses:10000,sell:{id:"minecraft:torchflower",count:4},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
             {maxUses:10000,sell:{id:"minecraft:pitcher_plant",count:4},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
             {maxUses:10000,sell:{id:"minecraft:torchflower",count:4},buy:{id:"minecraft:player_head",count:32,components:$(silver_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:wither_rose",count:4},buy:{id:"minecraft:player_head",count:1,components:$(gold_token_component)}}\
+            {maxUses:10000,sell:{id:"minecraft:wither_rose",count:4},buy:{id:"minecraft:player_head",count:1,components:$(gold_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:leaf_litter",count:16},buy:{id:"minecraft:player_head",count:32,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:wildflowers",count:16},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:cactus_flower",count:1},buy:{id:"minecraft:player_head",count:2,components:$(silver_token_component)}}\
         ]\
     }\
 }

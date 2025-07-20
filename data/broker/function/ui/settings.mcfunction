@@ -2,7 +2,7 @@
 # Page header
 tellraw @s [{"text":""}]
 tellraw @s [{"text":"<Back]","color":"#dcf7f6",\
-    "clickEvent":{"action":"run_command","value":"/trigger broker set 1"}},\
+    "click_event":{"action":"run_command","command":"/trigger broker set 1"}},\
     {"text":"                    ❂ User Settings ❂","color":"#5d7fbd"}]
 
 tellraw @s [{"text":"=====================================================","color":"#263553"}]
@@ -18,8 +18,8 @@ tellraw @s \
     {"text":"","color":"#666666","extra":[\
         {"text":"["},\
         {"text":"Automerge","color":"#dcf7f6",\
-        "clickEvent":\
-            {"action":"run_command","value":"/trigger broker set 373300"},\
+        "click_event":\
+            {"action":"run_command","command":"/trigger broker set 373300"},\
         "hoverEvent":\
             {"action":"show_text","contents":[\
                 {"text":"","color":"gray"},{"text":"Change automerge mode\n","underlined":true,"color":"gray"},\
@@ -50,8 +50,8 @@ tellraw @s \
     {"text":"","color":"#666666","extra":[\
         {"text":"["},\
         {"text":"Mute Conversion","color":"#dcf7f6",\
-        "clickEvent":\
-            {"action":"run_command","value":"/trigger broker set 373302"},\
+        "click_event":\
+            {"action":"run_command","command":"/trigger broker set 373302"},\
         "hoverEvent":\
             {"action":"show_text","contents":[\
                 {"text":"","color":"gray"},{"text":"Change pop conversion mute state\n","underlined":true,"color":"gray"},\

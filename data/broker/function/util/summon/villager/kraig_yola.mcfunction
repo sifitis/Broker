@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","kraig_yola"],\
-    CustomName:'{"text":"Kraig Yola","color":"dark_green"}',\
+    CustomName:{"text":"Kraig Yola","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\

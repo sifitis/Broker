@@ -4,6 +4,6 @@ $tellraw @s [{"text":" Please confirm you want to permanently delete [","color":
 
 tellraw @s [{"text":""}]
 
-$tellraw @s [{"text":"                                 [Confirm]","color":"#990000","clickEvent":\
-    {"action":"run_command","value":"/function broker:util/manifest/delete_entry_yes_really {entry_id:\"$(entry_id)\"}"}\
+$tellraw @s [{"text":"                                 [Confirm]","color":"#990000","click_event":\
+    {"action":"run_command","command":"/function broker:util/manifest/delete_entry_yes_really {entry_id:\"$(entry_id)\"}"}\
 }]

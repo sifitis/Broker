@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","lumbering_jack"],\
-    CustomName:'{"text":"Lumbering Jack","color":"dark_green"}',\
+    CustomName:{"text":"Lumbering Jack","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\

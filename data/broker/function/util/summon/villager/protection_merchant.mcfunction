@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","protection_merchant"],\
-    CustomName:'{"text":"Protection Merchant","color":"dark_green"}',\
+    CustomName:{"text":"Protection Merchant","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\

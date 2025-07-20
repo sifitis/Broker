@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","journeyman_deo_right"],\
-    CustomName:'{"text":"Journeyman Deo Right","color":"dark_green"}',\
+    CustomName:{"text":"Journeyman Deo Right","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\

@@ -26,13 +26,13 @@
                     }
                   ]
                 },
-                "minecraft:item_name": "[{\"text\":\"      ❂ \",\"italic\":false,\"color\":\"#9ec0ff\"},{\"text\":\"Mithril Token\",\"color\":\"#666666\"},{\"text\":\" ❂\"}]",
+                "minecraft:item_name": [{"text":"      ❂ ","italic":false,"color":"#9ec0ff"},{"text":"Mithril Token","color":"#666666"},{"text":" ❂"}],
                 "minecraft:lore": [
-                  "[{\"text\":\"------------------------\",\"italic\":false,\"color\":\"#9ec0ff\"}]",
-                  "[{\"text\":\"Value:\",\"italic\":false,\"color\":\"#666666\"},{\"text\":\" \"},{\"text\":\"16,777,216 ct\",\"color\":\"gray\"}]",
-                  "[{\"text\":\"\"}]",
-                  "[{\"text\":\"Offhand:\",\"italic\":false,\"color\":\"#666666\"}]",
-                  "[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"},{\"text\":\" \",\"bold\":true},{\"text\":\" \",\"bold\":true},{\"text\":\"1 \"},{\"text\":\"❂\",\"color\":\"#9ec0ff\"},{\"text\":\"Mithril ⇒ 64 \"},{\"text\":\"❂\",\"color\":\"#dcf7f6\"},{\"text\":\"Platinum\"}]"
+                  [{"text":"------------------------","italic":false,"color":"#9ec0ff"}],
+                  [{"text":"Value:","italic":false,"color":"#666666"},{"text":" "},{"text":"16,777,216 ct","color":"gray"}],
+                  [{"text":""}],
+                  [{"text":"Offhand:","italic":false,"color":"#666666"}],
+                  [{"text":"","italic":false,"color":"gray"},{"text":" ","bold":true},{"text":" ","bold":true},{"text":"1 "},{"text":"❂","color":"#9ec0ff"},{"text":"Mithril ⇒ 64 "},{"text":"❂","color":"#dcf7f6"},{"text":"Platinum"}]
                 ]
               }
             },

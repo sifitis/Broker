@@ -9,8 +9,8 @@ tellraw @s \
     {"text":"","color":"#666666","extra":[\
         {"text":"["},\
         {"text":"Smart Pause Time","color":"#dcf7f6",\
-        "clickEvent":\
-            {"action":"run_command","value":"/trigger broker set 373301"},\
+        "click_event":\
+            {"action":"run_command","command":"/trigger broker set 373301"},\
         "hoverEvent":\
             {"action":"show_text","contents":[\
                 {"text":"","color":"gray"},{"text":"Change automerge pause timeout\n","underlined":true,"color":"gray"},\

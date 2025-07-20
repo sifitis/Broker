@@ -1,6 +1,6 @@
 $summon villager ~ ~ ~ {\
     Tags:["token_merchant","sir_amik"],\
-    CustomName:'{"text":"Sir Amik","color":"dark_green"}',\
+    CustomName:{"text":"Sir Amik","color":"dark_green"},\
     CustomNameVisible:1b,\
     PersistenceRequired:1b,\
     CanPickUpLoot:0b,\

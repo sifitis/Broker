@@ -1,7 +1,7 @@
 
 # This is where all of the important stuff is done to start the datapack up
 
-tellraw @a [{"text":"❂Broker v3.0 loaded.","color":"#5d7fbd"}]
+tellraw @a [{"text":"❂Broker v3.1.0 loaded.","color":"#5d7fbd"}]
 
 # ================================================================================================ #
 #  Essential objectives  

@@ -88,7 +88,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/white"
+              "value": "minecraft:entities/vanilla/sheep/white"
             },
             {
               "type": "minecraft:loot_table",
@@ -105,7 +105,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/orange"
+              "value": "minecraft:entities/vanilla/sheep/orange"
             },
             {
               "type": "minecraft:loot_table",
@@ -122,7 +122,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/magenta"
+              "value": "minecraft:entities/vanilla/sheep/magenta"
             },
             {
               "type": "minecraft:loot_table",
@@ -139,7 +139,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/light_blue"
+              "value": "minecraft:entities/vanilla/sheep/light_blue"
             },
             {
               "type": "minecraft:loot_table",
@@ -156,7 +156,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/yellow"
+              "value": "minecraft:entities/vanilla/sheep/yellow"
             },
             {
               "type": "minecraft:loot_table",
@@ -173,7 +173,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/lime"
+              "value": "minecraft:entities/vanilla/sheep/lime"
             },
             {
               "type": "minecraft:loot_table",
@@ -190,7 +190,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/pink"
+              "value": "minecraft:entities/vanilla/sheep/pink"
             },
             {
               "type": "minecraft:loot_table",
@@ -207,7 +207,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/gray"
+              "value": "minecraft:entities/vanilla/sheep/gray"
             },
             {
               "type": "minecraft:loot_table",
@@ -224,7 +224,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/light_gray"
+              "value": "minecraft:entities/vanilla/sheep/light_gray"
             },
             {
               "type": "minecraft:loot_table",
@@ -241,7 +241,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/cyan"
+              "value": "minecraft:entities/vanilla/sheep/cyan"
             },
             {
               "type": "minecraft:loot_table",
@@ -258,7 +258,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/purple"
+              "value": "minecraft:entities/vanilla/sheep/purple"
             },
             {
               "type": "minecraft:loot_table",
@@ -275,7 +275,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/blue"
+              "value": "minecraft:entities/vanilla/sheep/blue"
             },
             {
               "type": "minecraft:loot_table",
@@ -292,7 +292,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/brown"
+              "value": "minecraft:entities/vanilla/sheep/brown"
             },
             {
               "type": "minecraft:loot_table",
@@ -309,7 +309,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/green"
+              "value": "minecraft:entities/vanilla/sheep/green"
             },
             {
               "type": "minecraft:loot_table",
@@ -326,7 +326,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/red"
+              "value": "minecraft:entities/vanilla/sheep/red"
             },
             {
               "type": "minecraft:loot_table",
@@ -343,7 +343,7 @@
                   }
                 }
               ],
-              "value": "minecraft:entities/sheep/black"
+              "value": "minecraft:entities/vanilla/sheep/black"
             }
           ]
         }
