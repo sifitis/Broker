@@ -10,8 +10,6 @@ execute if score token_type zz.broker.util.conv matches 3 run function broker:ut
 execute if score token_type zz.broker.util.conv matches 4 run function broker:util/conversion/promote/platinum
 
 # --- Reset Player --- #
-advancement revoke @s only broker:util/conversion/trigger_promote
-
 scoreboard players remove .num_entries zz.broker.uservar.conv.promote 1
 scoreboard players set @s zz.broker.uservar.conv.promote 0
 

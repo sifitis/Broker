@@ -13,7 +13,6 @@ execute if score token_type zz.broker.util.conv matches 4 run function broker:ut
 execute if score token_type zz.broker.util.conv matches 5 run function broker:util/conversion/demote/mithril
 
 # --- Reset Player --- #
-advancement revoke @s only broker:util/conversion/trigger_demote
 
 scoreboard players remove .num_entries zz.broker.uservar.conv.demote 1
 scoreboard players set @s zz.broker.uservar.conv.demote 0

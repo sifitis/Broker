@@ -1,7 +1,7 @@
 
 
 tellraw @s [{"text":""}]
-tellraw @s [{"text":" ------------------ ❂ Broker v3.1.0 ❂ -----------------","color":"#5d7fbd"}]
+tellraw @s [{"text":" ------------------ ❂ Broker v3.1.1 ❂ -----------------","color":"#5d7fbd"}]
 tellraw @s [{"text":"=====================================================","color":"#263553"}]
 
 tellraw @s {"text":"","color":"#666666","extra":[\

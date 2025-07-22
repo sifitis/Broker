@@ -16,10 +16,14 @@
 #
 #==================================================================#
 
+advancement revoke @s only broker:util/conversion/trigger_demote
+
 scoreboard objectives add zz.broker.uservar.conv.demote dummy
 
 # Mark the entry only if user doesn't already have one
-execute unless score @s zz.broker.uservar.conv.demote matches 1.. run \
-    scoreboard players add .num_entries zz.broker.uservar.conv.demote 1
+execute unless score @s zz.broker.uservar.conv.demote matches 1.. \
+    if data entity @s equipment.offhand.components."minecraft:custom_data".broker run \
+        scoreboard players add .num_entries zz.broker.uservar.conv.demote 1
 
-scoreboard players set @s zz.broker.uservar.conv.demote 1
+execute if data entity @s equipment.offhand.components."minecraft:custom_data".broker run \
+    scoreboard players set @s zz.broker.uservar.conv.demote 1
