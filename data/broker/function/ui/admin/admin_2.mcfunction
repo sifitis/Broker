@@ -34,6 +34,30 @@ tellraw @s \
         {"text":"Should the datapack attempt to clean up unnecessary storage/scoreboards","color":"gray"}\
     ]}
 
+tellraw @s [{"text":""}]
+
+# --- Log Output Mode --- #
+
+execute if score .log_output zz.broker.globalvar.settings matches 0 run data modify storage datapack:broker ui.admin.log_output set value {"text":"Off","color":"red"}
+execute if score .log_output zz.broker.globalvar.settings matches 1 run data modify storage datapack:broker ui.admin.log_output set value {"text":"On","color":"green"}
+
+tellraw @s \
+    {"text":"","color":"#666666","extra":[\
+        {"text":"["},\
+        {"text":"Output log","color":"#dcf7f6",\
+        "click_event":\
+            {"action":"run_command","command":"/function broker:ui/admin/change_setting/log_output"},\
+        "hoverEvent":\
+            {"action":"show_text","contents":[\
+                {"text":"","color":"gray"},{"text":"Toggle output logging\n","underlined":true,"color":"gray"},\
+                {"text":"On","underlined":false,"color":"green"},{"text":" - Your chat will be filled with a myriad of output data- most of it useless.\n"},\
+                {"text":"Off","underlined":false,"color":"red"},{"text":" - You will actually be able to see the game.\n"}\
+            ]}\
+        },\
+        {"text":"] ["},{"nbt":"ui.admin.log_output","storage":"datapack:broker","interpret":true},{"text":"] - "},\
+        {"text":"Should the datapack output logging info for debugging?","color":"gray"}\
+    ]}
+
 # --- Global Settings Sidebar --- #
 tellraw @s [{"text":""}]
 tellraw @s {"text":"","color":"#666666","extra":[{"text":"["},\

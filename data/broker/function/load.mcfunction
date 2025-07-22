@@ -29,6 +29,11 @@ execute unless score .automerge_cooldown zz.broker.globalvar.settings matches 0.
 execute unless score .villager_regenerate_ticks zz.broker.globalvar.settings matches 0..2147483647 run \
     scoreboard players set .villager_regenerate_ticks zz.broker.globalvar.settings 24000
 
+# Show output log in chat
+execute unless score .log_output zz.broker.globalvar.settings matches 0..1 run \
+    scoreboard players set .log_output zz.broker.globalvar.settings 0
+
+# Version of token item used (currently unused value)
 scoreboard players set .token_version zz.broker.globalvar.settings 2
 
 # ================================================================================================ #

@@ -20,8 +20,9 @@ scoreboard players set @s zz.broker.uservar.conv.demote 0
 
 # --- Handle Logic for Smart Automerge --- #
 
-execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 run \
-    function broker:util/automerge/pause
+execute if score @s zz.broker.uservar.setting.automerge.mode matches 2 \
+    if score @s zz.broker.uservar.util.automerge.is_paused matches ..0 run \
+        function broker:util/automerge/pause
 
 # --- Cleanup --- #
 execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run \

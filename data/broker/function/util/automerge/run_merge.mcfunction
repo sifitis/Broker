@@ -1,12 +1,21 @@
+# ---------------------------------------------------------------------------------------
+# Log Output
+execute if score .log_output zz.broker.globalvar.settings matches 1 run tellraw @a \
+        [{"text":"driver : ","color":"#777777"},\
+        {"selector":"@s","color":"#777777"},\
+        {"text":" > broker:util/automerge/run_merge [","color":"#00AA00"},\
+        {"selector":"@a[scores={zz.broker.uservar.automerge.flag=1..}]","color":"red"},\
+        {"text":"]","color":"#00AA00"}]
+# ---------------------------------------------------------------------------------------
 
 scoreboard objectives add zz.broker.util.automerge.merge dummy 
 
 # Get the current state of the tokens
-execute store result score C0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data={broker:{type:1b,is_token:1b}}] 0
-execute store result score S0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data={broker:{type:2b,is_token:1b}}] 0
-execute store result score G0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data={broker:{type:3b,is_token:1b}}] 0
-execute store result score P0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data={broker:{type:4b,is_token:1b}}] 0
-execute store result score M0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data={broker:{type:5b,is_token:1b}}] 0
+execute store result score C0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data~{broker:{type:1b,is_token:1b}}] 0
+execute store result score S0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data~{broker:{type:2b,is_token:1b}}] 0
+execute store result score G0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data~{broker:{type:3b,is_token:1b}}] 0
+execute store result score P0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data~{broker:{type:4b,is_token:1b}}] 0
+execute store result score M0 zz.broker.util.automerge.merge run clear @s minecraft:player_head[minecraft:custom_data~{broker:{type:5b,is_token:1b}}] 0
 
 # Assume the future state will be the same
 scoreboard players operation C1 zz.broker.util.automerge.merge = C0 zz.broker.util.automerge.merge
@@ -44,29 +53,32 @@ scoreboard players operation dM zz.broker.util.automerge.merge -= M0 zz.broker.u
 
 # tellraw @s {"text":""}
 
-#  tellraw @s [{"text":" IN: [ "},\
-#     {"score":{"name":"C0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"S0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"G0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"P0","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"M0","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
-#  ]
+execute if score .log_output zz.broker.globalvar.settings matches 1 run tellraw @a \
+    [{"text":" IN: [ ","color":"aqua"},\
+    {"score":{"name":"C0","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"S0","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"G0","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"P0","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"M0","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" ]","color":"aqua"}\
+]
 
-# tellraw @s [{"text":"  +: [ "},\
-#     {"score":{"name":"dC","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dS","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dG","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dP","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"dM","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
-# ]
+execute if score .log_output zz.broker.globalvar.settings matches 1 run tellraw @a \
+    [{"text":"  +: [ ","color":"aqua"},\
+    {"score":{"name":"dC","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"dS","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"dG","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"dP","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"dM","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" ]","color":"aqua"}\
+]
 
-# tellraw @s [{"text":"OUT: [ "},\
-#     {"score":{"name":"C1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"S1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"G1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"P1","objective":"zz.broker.util.automerge.merge"}},{"text":" | "},\
-#     {"score":{"name":"M1","objective":"zz.broker.util.automerge.merge"}},{"text":" ]"}\
-# ]
+execute if score .log_output zz.broker.globalvar.settings matches 1 run tellraw @a \
+    [{"text":"OUT: [ ","color":"aqua"},\
+    {"score":{"name":"C1","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"S1","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"G1","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"P1","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" | ","color":"aqua"},\
+    {"score":{"name":"M1","objective":"zz.broker.util.automerge.merge"},"color":"aqua"},{"text":" ]","color":"aqua"}\
+]
 
 # tellraw @s {"text":""}
 
@@ -99,3 +111,11 @@ execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 r
 
 execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run \
     data remove storage datapack:broker process.automerge 
+
+# ---------------------------------------------------------------------------------------
+# Log Output
+execute if score .log_output zz.broker.globalvar.settings matches 1 run tellraw @a \
+        [{"text":"driver : ","color":"#777777"},\
+        {"selector":"@s","color":"#777777"},\
+        {"text":" < broker:util/automerge/run_merge","color":"#006600"}]
+# ---------------------------------------------------------------------------------------
