@@ -23,13 +23,13 @@ $summon villager ~ ~ ~ {\
             {maxUses:10000,sell:{id:"minecraft:stone",count:1},buy:{id:"minecraft:player_head",count:12,components:$(copper_token_component)}},\
             {maxUses:10000,sell:{id:"minecraft:stone",count:64},buy:{id:"minecraft:player_head",count:12,components:$(silver_token_component)}},\
             {maxUses:10000,sell:{id:"minecraft:cobblestone",count:1},buy:{id:"minecraft:player_head",count:4,components:$(copper_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:cobblestone",count:1},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:granite",count:64},buy:{id:"minecraft:player_head",count:8,components:$(copper_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:granite",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:andesite",count:64},buy:{id:"minecraft:player_head",count:8,components:$(copper_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:andesite",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:diorite",count:64},buy:{id:"minecraft:player_head",count:8,components:$(copper_token_component)}},\
-            {maxUses:10000,sell:{id:"minecraft:diorite",count:1},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}}\
+            {maxUses:10000,sell:{id:"minecraft:cobblestone",count:64},buy:{id:"minecraft:player_head",count:4,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:granite",count:1},buy:{id:"minecraft:player_head",count:8,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:granite",count:64},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:andesite",count:1},buy:{id:"minecraft:player_head",count:8,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:andesite",count:64},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:diorite",count:1},buy:{id:"minecraft:player_head",count:8,components:$(copper_token_component)}},\
+            {maxUses:10000,sell:{id:"minecraft:diorite",count:64},buy:{id:"minecraft:player_head",count:8,components:$(silver_token_component)}}\
         ]\
     }\
 }
