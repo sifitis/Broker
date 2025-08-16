@@ -1,0 +1,1 @@
+$execute store result score .rand zz.broker.util.select_weighted_index run random value 1..$(total_weight)
