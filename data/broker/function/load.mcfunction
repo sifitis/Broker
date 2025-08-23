@@ -1,7 +1,7 @@
 
 # This is where all of the important stuff is done to start the datapack up
 
-tellraw @a [{"text":"❂Broker v3.1.1 loaded.","color":"#5d7fbd"}]
+tellraw @a [{"text":"❂Broker v3.1.1 loaded. (Custom Trades)","color":"#5d7fbd"}]
 
 # ================================================================================================ #
 #  Essential objectives  
@@ -88,3 +88,9 @@ scoreboard players set .64 zz.broker.const 64
 # ================================================================================================ #
 
 schedule function broker:util/subprocess/regenerate_villagers 5s
+
+# ================================================================================================ #
+#  Wandering Trader Stuff 
+# ================================================================================================ #
+
+schedule function broker:util/subprocess/populate_wandering_trader 2s
