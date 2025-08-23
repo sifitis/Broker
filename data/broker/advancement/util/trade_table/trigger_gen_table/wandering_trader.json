@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "chat_with_wandering_trader": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "broker:util/trade_table/generate/wandering_trader/trigger"
+  }
+}

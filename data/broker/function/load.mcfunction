@@ -88,3 +88,9 @@ scoreboard players set .64 zz.broker.const 64
 # ================================================================================================ #
 
 schedule function broker:util/subprocess/regenerate_villagers 5s
+
+# ================================================================================================ #
+#  Wandering Trader Stuff 
+# ================================================================================================ #
+
+schedule function broker:util/subprocess/populate_wandering_trader 2s
