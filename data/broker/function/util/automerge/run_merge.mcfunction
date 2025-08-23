@@ -100,6 +100,7 @@ execute unless score dM zz.broker.util.automerge.merge matches 0 run \
 # Set cooldown
 scoreboard players operation @s zz.broker.uservar.util.cooldown = .automerge_cooldown zz.broker.globalvar.settings
 scoreboard players set @s zz.broker.uservar.automerge.flag 0
+scoreboard players remove .num_entries zz.broker.uservar.automerge.flag 1
 
 # --- Cleanup --- #
 execute if score .do_garbage_collection zz.broker.uservar.automerge.flag matches 1 run \
