@@ -40,12 +40,25 @@ data modify storage datapack:broker process.generic.select_weighted_index.weight
 
 function broker:util/generic/select_weighted_index/sum_loop
 
+        # Log Output
+        execute if score .log_output zz.broker.globalvar.settings matches 1 run \
+                tellraw @a [\
+                    {"text":" - Total Weight: ","color":"aqua"},\
+                    {"score":{"name":".total_weight","objective":"zz.broker.util.select_weighted_index"}},\
+                ]
 
 execute store result storage datapack:broker process.generic.select_weighted_index.total_weight int 1.0 run \
     scoreboard players get .total_weight zz.broker.util.select_weighted_index
 
 # generate random index
 function broker:util/generic/select_weighted_index/gen_random_index with storage datapack:broker process.generic.select_weighted_index
+
+        # Log Output
+        execute if score .log_output zz.broker.globalvar.settings matches 1 run \
+                tellraw @a [\
+                    {"text":" - .rand value: ","color":"aqua"},\
+                    {"score":{"name":".rand","objective":"zz.broker.util.select_weighted_index"}},\
+                ]
 
 # Find the right index
 scoreboard players set .index zz.broker.util.select_weighted_index 0
@@ -57,7 +70,7 @@ data modify storage datapack:broker process.generic.select_weighted_index.weight
 function broker:util/generic/select_weighted_index/select_loop
 
 # Go from (1,n) to (0,n-1)
-scoreboard players remove .index zz.broker.util.select_weighted_index 1
+scoreboard players remove .rand zz.broker.util.select_weighted_index 1
 
 execute store result storage datapack:broker process.generic.select_weighted_index.index int 1.0 run \
     scoreboard players get .index zz.broker.util.select_weighted_index
@@ -70,7 +83,8 @@ execute store result storage datapack:broker process.generic.select_weighted_ind
                 ]
 
 # Cleanup
-scoreboard objectives remove zz.broker.util.select_weighted_index
+execute if score .do_garbage_collection zz.broker.globalvar.settings matches 1 run \
+    scoreboard objectives remove zz.broker.util.select_weighted_index
 
 # ---------------------------------------------------------------------------------------
 # Log Output
